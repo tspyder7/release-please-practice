@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# check formatting and linting
+yarn lint && yarn format

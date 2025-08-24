@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# perform commit linting
+yarn commitlint

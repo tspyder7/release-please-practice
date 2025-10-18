@@ -1,0 +1,51 @@
+name: Production Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-release:
+    name: Generate Production Release
+    permissions:
+      contents: write
+      pull-requests: write
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Log Workflow
+        run: |
+          echo "::group::🔍 Workflow Execution Context"
+          echo "Event: ${{ github.event_name }}"
+          echo "Action: ${{ github.event.action }}"
+          echo "Repository: ${{ github.repository }}"
+          echo "Ref Name: ${{ github.ref_name }}"
+          echo "PR Number: ${{ github.event.pull_request.number }}"
+          echo "Base Branch: ${{ github.event.pull_request.base.ref }}"
+          echo "Head Branch: ${{ github.event.pull_request.head.ref }}"
+          echo "::endgroup::"
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Generate Changelog
+        id: release-changelog
+        uses: googleapis/release-please-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config-file: .release-please-config.json
+          manifest-file: .release-please-manifest.json
+
+  publish:
+    name: Test publish - Production
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Publish to Production
+        run: |
+          sleep 10
+          echo "Test Publish Job: Completed"

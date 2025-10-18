@@ -1,0 +1,14 @@
+{
+    "entryPoints": [
+        "./**/*.ts"
+    ],
+    "out": "docs",
+    "tsconfig": "tsconfig.json",
+    "excludePrivate": true,
+    "excludeProtected": true,
+    "excludeInternal": true,
+    "includeVersion": true,
+    "readme": "none",
+    "categorizeByGroup": true,
+    "hideGenerator": true
+}

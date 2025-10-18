@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v0.3.0...release-please-practice-v0.4.0) (2025-10-18)
+
+
+### Features
+
+* updated release workflows ([8abbf35](https://github.com/tspyder7/release-please-practice/commit/8abbf359f63b37ce4b000466103bc096818b4a15))
+
 ## [0.3.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v0.2.0...release-please-practice-v0.3.0) (2025-10-18)
 
 

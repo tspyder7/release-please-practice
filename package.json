@@ -1,6 +1,6 @@
 {
     "name": "release-please-practice",
-    "version": "0.4.0",
+    "version": "0.1.0",
     "description": "Node.js application for release-please-practice",
     "author": "",
     "license": "ISC",

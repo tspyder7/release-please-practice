@@ -4,14 +4,14 @@
         ".": {
             "package-name": "release-please-practice",
             "release-type": "node",
-            "changelog-path": "CHANGELOG.md",
-            "prerelease-type": "dev",
-            "prerelease": true
+            "changelog-path": "CHANGELOG.md"
         }
     },
     "bump-minor-pre-major": true,
     "include-v-in-tag": true,
     "pull-request-title-pattern": "chore: dev release v${version}",
-    "pull-request-header": "Dev Release Notes",
-    "separate-pull-requests": true
+    "pull-request-header": "RC-${version}",
+    "separate-pull-requests": true,
+    "prerelease-type": "dev",
+    "prerelease": true
 }

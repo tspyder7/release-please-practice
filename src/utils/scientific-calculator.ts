@@ -2,7 +2,7 @@
 
 /**
  * Scientific calculator providing trigonometric operations.
- * Currently includes only sine.
+ * Includes sine and tangent functions.
  */
 export class ScientificCalculator {
     /**
@@ -14,5 +14,16 @@ export class ScientificCalculator {
     sin(x: number, inDegrees: boolean = false): number {
         const radians = inDegrees ? (x * Math.PI) / 180 : x;
         return Math.sin(radians);
+    }
+
+    /**
+     * Calculates the tangent of an angle.
+     * @param x - Angle value; interpreted as radians by default
+     * @param inDegrees - When true, interpret x as degrees (default: false)
+     * @returns The tangent of the angle (tan(x))
+     */
+    tan(x: number, inDegrees: boolean = false): number {
+        const radians = inDegrees ? (x * Math.PI) / 180 : x;
+        return Math.tan(radians);
     }
 }

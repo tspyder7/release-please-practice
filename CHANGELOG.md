@@ -1,5 +1,20 @@
 # Changelog
 
+## [4.0.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v3.0.0...release-please-practice-v4.0.0) (2025-10-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* updated prod workflow only pre-release
+* updated prod release config
+
+### Features
+
+* reverted prod release workflow ([5d04cb6](https://github.com/tspyder7/release-please-practice/commit/5d04cb6c3345f4407abbd09b27e92a4b033f6cba))
+* updated dev release config ([dca9611](https://github.com/tspyder7/release-please-practice/commit/dca96115cbe5061df4b28d613834d621a9438b1a))
+* updated prod release config ([43f9182](https://github.com/tspyder7/release-please-practice/commit/43f9182f222482ef3b6cf3c6cc56d22ae67a5232))
+* updated prod workflow only pre-release ([784fb09](https://github.com/tspyder7/release-please-practice/commit/784fb09b762bc05115fded974dd19ac026ce9476))
+
 ## [3.0.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v2.0.0...release-please-practice-v3.0.0) (2025-10-18)
 
 

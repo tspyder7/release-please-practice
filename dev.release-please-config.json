@@ -11,6 +11,6 @@
     "bump-minor-pre-major": true,
     "include-v-in-tag": true,
     "pull-request-title-pattern": "chore: dev release v${version} [skip ci]",
-    "pull-request-header": "Release Notes",
+    "pull-request-header": "Dev Release Notes",
     "separate-pull-requests": true
 }

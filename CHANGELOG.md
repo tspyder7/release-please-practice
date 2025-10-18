@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v0.2.0...release-please-practice-v0.3.0) (2025-10-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* added scientific calculator sin and financial calculator
+
+### Features
+
+* added scientific calculator sin and financial calculator ([e1f456d](https://github.com/tspyder7/release-please-practice/commit/e1f456db898cf84f30828e1b9fb29535a584dedd))
+
 ## [0.2.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v0.1.0...release-please-practice-v0.2.0) (2025-10-18)
 
 

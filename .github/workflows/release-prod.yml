@@ -47,5 +47,5 @@ jobs:
     steps:
       - name: Publish to Production
         run: |
-          sleep 10
+          sleep 5
           echo "Test Publish Job: Completed"

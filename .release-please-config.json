@@ -12,6 +12,5 @@
     "pull-request-title-pattern": "chore: release v${version}",
     "pull-request-header": "Release Notes",
     "separate-pull-requests": true,
-    "prerelease-type": "dev",
     "prerelease": true
 }

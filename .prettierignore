@@ -9,3 +9,5 @@ build/
 
 # Ignore built js files
 dist/
+
+docs/

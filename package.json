@@ -1,6 +1,6 @@
 {
     "name": "release-please-practice",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Node.js application for release-please-practice",
     "author": "",
     "license": "ISC",
@@ -15,7 +15,8 @@
         "start": "node dist/",
         "commitlint": "commitlint --edit $1",
         "lint": "eslint --ext .js,.ts .",
-        "format": "prettier --write \"**/*.+(js|ts)\""
+        "format": "prettier --write \"**/*.+(js|ts)\"",
+        "docs": "typedoc --plugin typedoc-material-theme"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",
@@ -30,6 +31,8 @@
         "prettier": "^3.6.2",
         "rimraf": "^6.0.1",
         "ts-node": "^10.9.2",
+        "typedoc": "^0.28.10",
+        "typedoc-material-theme": "^1.4.0",
         "typescript": "^5.9.2",
         "typescript-eslint": "^8.40.0"
     }

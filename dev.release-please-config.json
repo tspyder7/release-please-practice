@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+    "packages": {
+        ".": {
+            "package-name": "release-please-practice",
+            "release-type": "node",
+            "changelog-path": "CHANGELOG.md",
+            "prerelease-type": "dev",
+            "prerelease": true
+        }
+    },
+    "bump-minor-pre-major": true,
+    "include-v-in-tag": true,
+    "pull-request-title-pattern": "chore: dev release v${version} [skip ci]",
+    "pull-request-header": "Dev Release Notes",
+    "separate-pull-requests": true
+}

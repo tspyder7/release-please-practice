@@ -11,6 +11,7 @@ jobs:
     name: Generate Production Release
     permissions:
       contents: write
+      actions: write
       pull-requests: write
     timeout-minutes: 10
     runs-on: ubuntu-latest

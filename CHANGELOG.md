@@ -1,5 +1,14 @@
 # Changelog
 
+## [4.2.0-rc.5](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.4...release-please-practice-v4.2.0-rc.5) (2026-03-22)
+
+
+### Features
+
+* added fix for something1 ([36f369c](https://github.com/tspyder7/release-please-practice/commit/36f369c4f5adb3f766b983ec7626be2d4abe58d6))
+* added fix for something2 ([0dec8f2](https://github.com/tspyder7/release-please-practice/commit/0dec8f2181834993bb9b296c2e656d988202ff97))
+* added fix for something3 ([462fd32](https://github.com/tspyder7/release-please-practice/commit/462fd3288267f6a2902452d95c78743290bbd43d))
+
 ## [4.2.0-rc.4](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.3...release-please-practice-v4.2.0-rc.4) (2026-03-22)
 
 

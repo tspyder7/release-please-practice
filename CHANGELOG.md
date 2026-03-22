@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0-rc.7](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.6...release-please-practice-v4.2.0-rc.7) (2026-03-22)
+
+
+### Bug Fixes
+
+* update dev workflow to run publish only one time ([53a4d1f](https://github.com/tspyder7/release-please-practice/commit/53a4d1f758656dfa24342b5d137da96b8d4d2c37))
+
 ## [4.2.0-rc.6](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.5...release-please-practice-v4.2.0-rc.6) (2026-03-22)
 
 

@@ -11,7 +11,7 @@
     },
     "bump-minor-pre-major": true,
     "include-v-in-tag": true,
+    "versioning": "prerelease",
     "pull-request-title-pattern": "chore: dev release v${version}",
-    "pull-request-header": "RC-${version}",
     "separate-pull-requests": true
 }

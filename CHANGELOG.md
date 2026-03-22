@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.2.0-rc.4](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.3...release-please-practice-v4.2.0-rc.4) (2026-03-22)
+
+
+### Features
+
+* manual version update ([a69d4b2](https://github.com/tspyder7/release-please-practice/commit/a69d4b290a0382c0694373b7c0e41f42e27abb63))
+* update commit message of the release please workflows ([2e25f3e](https://github.com/tspyder7/release-please-practice/commit/2e25f3eaccccbcf2d04a7ebdf1a251383f869d5a))
+
 ## [4.2.0-rc.3](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.2...release-please-practice-v4.2.0-rc.3) (2026-03-22)
 
 

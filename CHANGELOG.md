@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0-rc.8](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.7...release-please-practice-v4.2.0-rc.8) (2026-03-22)
+
+
+### Features
+
+* added manual approval ([f3ceb30](https://github.com/tspyder7/release-please-practice/commit/f3ceb3024d88b1a4e4d6f03ed7350ba958726f98))
+
 ## [4.2.0-rc.7](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.6...release-please-practice-v4.2.0-rc.7) (2026-03-22)
 
 

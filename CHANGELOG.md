@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.2.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.1.0...release-please-practice-v4.2.0) (2026-03-22)
+
+
+### Features
+
+* added dev release manifest json file and update prod release to trigger on only dispatch ([72bfe21](https://github.com/tspyder7/release-please-practice/commit/72bfe21b4af9b55b0df5c1258c608e79b35a07df))
+
+
+### Bug Fixes
+
+* added edit 3 ([c49e6e6](https://github.com/tspyder7/release-please-practice/commit/c49e6e62cb8eac9d1435bdc600a4eac058d20601))
+* updated prod ci to remove pre-release configuration ([c559241](https://github.com/tspyder7/release-please-practice/commit/c559241c4f46ba3a94019c8737f5ddc894d923bc))
+* updates pre-release configuration for dev release to be applied on each package level ([485ab3b](https://github.com/tspyder7/release-please-practice/commit/485ab3b9aebf565ee5b7f5f81acb03261e22df0c))
+
 ## [4.2.0-rc.1](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc...release-please-practice-v4.2.0-rc.1) (2026-03-22)
 
 

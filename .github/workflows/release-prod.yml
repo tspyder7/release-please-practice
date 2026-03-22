@@ -36,7 +36,7 @@ jobs:
         id: release-changelog
         uses: googleapis/release-please-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RELEASE_PLEASE_PAT }}
           config-file: .release-please-config.json
           manifest-file: .release-please-manifest.json
 
@@ -44,7 +44,7 @@ jobs:
     name: Test publish - Production
     timeout-minutes: 10
     runs-on: ubuntu-latest
-
+    needs: [generate-release]
     steps:
       - name: Publish to Production
         run: |

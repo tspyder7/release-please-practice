@@ -1,5 +1,18 @@
 # Changelog
 
+## [4.2.0-rc.6](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.5...release-please-practice-v4.2.0-rc.6) (2026-03-22)
+
+
+### Features
+
+* update dev workflow to not to error out if validation fails ([1f4d7b7](https://github.com/tspyder7/release-please-practice/commit/1f4d7b7f546c20a13ddba1609575af4202b4ff58))
+* updated release dev workflow to validate trigger conditions ([dddc65d](https://github.com/tspyder7/release-please-practice/commit/dddc65da08ccf8caa1f69d49bcdb35bfb29ec68b))
+
+
+### Bug Fixes
+
+* fixed dev workflow evalute workflow jq error ([67adb74](https://github.com/tspyder7/release-please-practice/commit/67adb741b90be4de11b975efaf84730d77ceb64b))
+
 ## [4.3.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0...release-please-practice-v4.3.0) (2026-03-22)
 
 

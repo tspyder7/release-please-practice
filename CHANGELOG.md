@@ -1,5 +1,26 @@
 # Changelog
 
+## [4.2.0-rc.6](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.5...release-please-practice-v4.2.0-rc.6) (2026-03-22)
+
+
+### Features
+
+* added summary job in dev workflow ([f37ed00](https://github.com/tspyder7/release-please-practice/commit/f37ed00cb8e814658bd0048c432c7980a34601f1))
+* update dev workflow to not to error out if validation fails ([1f4d7b7](https://github.com/tspyder7/release-please-practice/commit/1f4d7b7f546c20a13ddba1609575af4202b4ff58))
+* updated release dev workflow to validate trigger conditions ([dddc65d](https://github.com/tspyder7/release-please-practice/commit/dddc65da08ccf8caa1f69d49bcdb35bfb29ec68b))
+* updated summary job to run always ([0c91f11](https://github.com/tspyder7/release-please-practice/commit/0c91f117767b2ddb9acd8ab597e073184e6d4d0c))
+
+
+### Bug Fixes
+
+* added logs to summary job and summary step too ([b27bebf](https://github.com/tspyder7/release-please-practice/commit/b27bebff2637f99a17be663cc772c61c4e645752))
+* fixed dev workflow evalute workflow jq error ([67adb74](https://github.com/tspyder7/release-please-practice/commit/67adb741b90be4de11b975efaf84730d77ceb64b))
+* fixed summary job ([8a8c295](https://github.com/tspyder7/release-please-practice/commit/8a8c295564896a62882123cc6d3360ec7e41493f))
+* updated logs ([6349672](https://github.com/tspyder7/release-please-practice/commit/63496720304a4b0cae070e27086dd600f9a46441))
+* updated summary job needs ([ff5632d](https://github.com/tspyder7/release-please-practice/commit/ff5632dad5ab2c9ee69a2582958968374820c5f1))
+* updated workflow summary logs ([867208f](https://github.com/tspyder7/release-please-practice/commit/867208fce86461bcfaa47953c330bef536f8eafe))
+* updated workflow summary script ([18c2dca](https://github.com/tspyder7/release-please-practice/commit/18c2dcaf2d51308ddf0a2d14429213828043e6ed))
+
 ## [4.3.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0...release-please-practice-v4.3.0) (2026-03-22)
 
 

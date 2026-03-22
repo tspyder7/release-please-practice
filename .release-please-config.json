@@ -4,9 +4,7 @@
       ".": {
         "package-name": "release-please-practice",
         "release-type": "node",
-        "changelog-path": "CHANGELOG.md",
-        "prerelease-type": "alpha",
-        "prerelease": true
+        "changelog-path": "CHANGELOG.md"
       }
     },
     "include-v-in-tag": true,

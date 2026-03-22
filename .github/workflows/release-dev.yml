@@ -18,15 +18,24 @@ jobs:
         run: |
           echo "should_run=false" >> $GITHUB_OUTPUT
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "✅ Manual dispatch detected"
             echo "should_run=true" >> $GITHUB_OUTPUT
           elif [ "${{ github.event_name }}" = "push" ]; then
-            commits_count=$(jq '.commits | length' <<< '${{ toJson(github.event.commits) }}')
+            commits_json='${{ toJson(github.event.commits) }}'
+            commits_count=$(echo "$commits_json" | jq 'length')
             if [ "$commits_count" -eq 1 ]; then
-              msg=$(jq -r '.commits[0].message' <<< '${{ toJson(github.event.commits) }}')
+              msg=$(echo "$commits_json" | jq -r '.[0].message')
               if [[ "$msg" =~ ^release\(.* ]]; then
+                echo "✅ Single commit matches ^release("
                 echo "should_run=true" >> $GITHUB_OUTPUT
+              else
+                echo "ℹ️ Skipping: commit message does not match ^release("
               fi
+            else
+              echo "ℹ️ Skipping: push has $commits_count commits"
             fi
+          else
+            echo "ℹ️ Skipping: unsupported event type ${{ github.event_name }}"
           fi
 
   generate-release:

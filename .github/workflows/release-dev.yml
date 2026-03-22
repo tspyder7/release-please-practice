@@ -79,16 +79,23 @@ jobs:
     if: always()
     runs-on: ubuntu-latest
     steps:
-      - name: Add workflow summary
+      - name: Add workflow summary and logs
         run: |
           should_run="${{ needs.validate-trigger-conditions.outputs.should_run }}"
           echo "🔍 should_run value: $should_run"
 
           if [ "$should_run" != "true" ]; then
+            echo "🚫 Workflow skipped (console log)"
+            echo "Conditions not met: only runs on workflow_dispatch or single commit starting with release("
+            echo "ℹ️ All downstream jobs were skipped."
+
             echo "### 🚫 Workflow skipped" >> $GITHUB_STEP_SUMMARY
             echo "Conditions not met: only runs on workflow_dispatch or single commit starting with release(" >> $GITHUB_STEP_SUMMARY
             echo "ℹ️ All downstream jobs were skipped." >> $GITHUB_STEP_SUMMARY
           else
+            echo "✅ Workflow completed successfully (console log)"
+            echo "Release and publish jobs executed."
+
             echo "### ✅ Workflow completed successfully" >> $GITHUB_STEP_SUMMARY
             echo "Release and publish jobs executed." >> $GITHUB_STEP_SUMMARY
           fi

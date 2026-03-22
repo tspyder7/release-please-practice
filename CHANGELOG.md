@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0-rc.1](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc...release-please-practice-v4.2.0-rc.1) (2026-03-22)
+
+
+### Bug Fixes
+
+* updated prod ci to remove pre-release configuration ([c559241](https://github.com/tspyder7/release-please-practice/commit/c559241c4f46ba3a94019c8737f5ddc894d923bc))
+
 ## [4.2.0-rc](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.1.0...release-please-practice-v4.2.0-rc) (2026-03-22)
 
 

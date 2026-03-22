@@ -75,7 +75,7 @@ jobs:
 
   summary:
     name: Summary
-    needs: publish
+    needs: [validate-trigger-conditions, publish]
     if: always()
     runs-on: ubuntu-latest
     steps:

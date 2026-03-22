@@ -1,5 +1,29 @@
 # Changelog
 
+## [4.3.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0...release-please-practice-v4.3.0) (2026-03-22)
+
+
+### Features
+
+* added file 4 ([d233f25](https://github.com/tspyder7/release-please-practice/commit/d233f25d90fc642bf88937d38e5d267a9a0e98af))
+* added file 5 ([2900754](https://github.com/tspyder7/release-please-practice/commit/29007541602e6293d999f7733310775dc5c29715))
+* added fix for something1 ([36f369c](https://github.com/tspyder7/release-please-practice/commit/36f369c4f5adb3f766b983ec7626be2d4abe58d6))
+* added fix for something2 ([0dec8f2](https://github.com/tspyder7/release-please-practice/commit/0dec8f2181834993bb9b296c2e656d988202ff97))
+* added fix for something3 ([462fd32](https://github.com/tspyder7/release-please-practice/commit/462fd3288267f6a2902452d95c78743290bbd43d))
+* added on push trigger for dev and prod workflow ([f36a754](https://github.com/tspyder7/release-please-practice/commit/f36a7541a5f2d9f6ca7cd16b3df4084a59b5a8b8))
+* manual version update ([a69d4b2](https://github.com/tspyder7/release-please-practice/commit/a69d4b290a0382c0694373b7c0e41f42e27abb63))
+* update commit message of the release please workflows ([2e25f3e](https://github.com/tspyder7/release-please-practice/commit/2e25f3eaccccbcf2d04a7ebdf1a251383f869d5a))
+* updated ci workflows to use custom token ([3917cad](https://github.com/tspyder7/release-please-practice/commit/3917cad3230ae78210b8f5e94f212ff606a8d70a))
+
+
+### Bug Fixes
+
+* added file 4 ([38d31e7](https://github.com/tspyder7/release-please-practice/commit/38d31e7b7a8e8283931d6c8b24c177555fce5bb2))
+* added file 6 ([7020f12](https://github.com/tspyder7/release-please-practice/commit/7020f12cb4c880c97764b1e94029af2b04db9cfc))
+* added file 7 ([b3428c8](https://github.com/tspyder7/release-please-practice/commit/b3428c8f17354d8a79f71d04782ef9f00d2abe6b))
+* added file 8 ([a8e36e7](https://github.com/tspyder7/release-please-practice/commit/a8e36e79d278877e368bea88314322e41e714482))
+* updated dev and prod ci permission to allow write access to actions ([87486d6](https://github.com/tspyder7/release-please-practice/commit/87486d6fa3ab1caf9222faa2cb86034c74ca434a))
+
 ## [4.2.0-rc.5](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.4...release-please-practice-v4.2.0-rc.5) (2026-03-22)
 
 

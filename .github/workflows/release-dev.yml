@@ -41,6 +41,8 @@ jobs:
     name: Generate Development Release
     needs: validate-trigger-conditions
     if: needs.validate-trigger-conditions.outputs.run_release == 'true'
+    environment:
+      name: ${{ github.event_name == 'workflow_dispatch' && 'production' || '' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write

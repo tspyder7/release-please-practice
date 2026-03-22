@@ -74,8 +74,7 @@ jobs:
           echo "🚀 Test Publish Job: Completed"
 
   summary:
-    name: Workflow Summary
-    needs: [validate-trigger-conditions, generate-release, publish]
+    name: Summary
     runs-on: ubuntu-latest
     steps:
       - name: Add workflow summary

@@ -75,7 +75,7 @@ jobs:
 
   summary:
     name: Summary
-    needs: validate-trigger-conditions
+    needs: publish
     if: always()
     runs-on: ubuntu-latest
     steps:
@@ -88,3 +88,4 @@ jobs:
           else
             echo "### ✅ Workflow completed successfully" >> $GITHUB_STEP_SUMMARY
             echo "Release and publish jobs executed." >> $GITHUB_STEP_SUMMARY
+          fi

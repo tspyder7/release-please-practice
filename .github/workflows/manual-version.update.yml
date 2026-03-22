@@ -1,0 +1,42 @@
+name: Manual Version Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version number to set (e.g. 1.2.3)"
+        required: true
+
+jobs:
+  bump-version:
+    name: 'bump version'
+    permissions:
+      contents: write
+      actions: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Update version files
+        run: |
+          VERSION=${{ github.event.inputs.version }}
+          echo "Updating version to $VERSION"
+
+          # Example: update package.json
+          jq ".version = \"$VERSION\"" package.json > tmp.json && mv tmp.json package.json
+
+          # Example: update a VERSION file
+          echo "$VERSION" > VERSION
+
+      - name: Commit changes
+        run: |
+          git add package.json VERSION
+          git commit -m "chore: new version => ${{ github.event.inputs.version }}"
+          git push

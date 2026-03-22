@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.4.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.3.0...release-please-practice-v4.4.0) (2026-03-22)
+
+
+### Features
+
+* updated release dev workflow to validate trigger conditions ([dddc65d](https://github.com/tspyder7/release-please-practice/commit/dddc65da08ccf8caa1f69d49bcdb35bfb29ec68b))
+
 ## [4.3.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0...release-please-practice-v4.3.0) (2026-03-22)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0-rc.9](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.8...release-please-practice-v4.2.0-rc.9) (2026-04-25)
+
+
+### Features
+
+* configured test-release-pipeline ([#33](https://github.com/tspyder7/release-please-practice/issues/33)) ([6e7d680](https://github.com/tspyder7/release-please-practice/commit/6e7d6804024849758449bbadbef7532fada5d011))
+
 ## [4.2.0-rc.8](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.7...release-please-practice-v4.2.0-rc.8) (2026-03-22)
 
 

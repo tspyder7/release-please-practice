@@ -1,0 +1,36 @@
+name: test-release-pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      release-type:
+        description: "Release type (rc, alpha, beta, latest)"
+        type: choice
+        options:
+          - rc
+          - latest
+        default: latest
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    uses: tspyder7/github-actions-lib/.github/workflows/release-pipeline.yml@feat/release-pipeline
+    with:
+      environment: production
+      release-type: ${{ inputs.release-type }}
+      publish: |
+        {
+          "uses": "tspyder7/github-actions-lib/actions/sleep-for-while@main@feat/release-pipeline",
+          "with": {
+            "sleep_time": "10",
+            "message": "Slept for 10 seconds. Release is complete"
+          }
+        }
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}

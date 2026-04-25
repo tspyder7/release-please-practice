@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.4.1](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.4.0...release-please-practice-v4.4.1) (2026-04-25)
+
+
+### Bug Fixes
+
+* renamed .release/lastest -&gt;  .release/prod ([af6fe07](https://github.com/tspyder7/release-please-practice/commit/af6fe073270a4478ab8501006b02ff9a1ba7803a))
+
 ## [4.4.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.3.0...release-please-practice-v4.4.0) (2026-04-25)
 
 

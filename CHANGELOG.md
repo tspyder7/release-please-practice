@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0-rc.10](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.9...release-please-practice-v4.2.0-rc.10) (2026-04-25)
+
+
+### Bug Fixes
+
+* **ci-cd:** fixed test action for publish input ([91a4b6a](https://github.com/tspyder7/release-please-practice/commit/91a4b6ad082d5bbd64ff4596a839b962be3ddf57))
+
 ## [4.2.0-rc.9](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.2.0-rc.8...release-please-practice-v4.2.0-rc.9) (2026-04-25)
 
 

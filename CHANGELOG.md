@@ -1,5 +1,21 @@
 # Changelog
 
+## [4.5.0](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.4.1...release-please-practice-v4.5.0) (2026-04-25)
+
+
+### Features
+
+* **calc-doc:** added new test feature ([c0c4d52](https://github.com/tspyder7/release-please-practice/commit/c0c4d52598b354dc330540011b7c7d5a3897cd29))
+* fixed release configuration ([1c7e5c5](https://github.com/tspyder7/release-please-practice/commit/1c7e5c5403ac225f178a8144ad27e0aaf0e092ed))
+
+
+### Bug Fixes
+
+* added manifest.json file for release management ([9e0eba9](https://github.com/tspyder7/release-please-practice/commit/9e0eba98ccab7fa64e7cc0d50af548bb43e3d494))
+* **ci-cd:** fixed rc release version ([9df4b0b](https://github.com/tspyder7/release-please-practice/commit/9df4b0b9f958e0932a8f6c8af700626efbf6d8e2))
+* fixed somethings 1 ([25a0354](https://github.com/tspyder7/release-please-practice/commit/25a03540e33f04cbd543c3087f1cdf416c43e180))
+* fixed somethings 2 ([2483bc0](https://github.com/tspyder7/release-please-practice/commit/2483bc0bf98b234f298e686179bbab86740f87b4))
+
 ## [4.5.0-rc.1](https://github.com/tspyder7/release-please-practice/compare/release-please-practice-v4.5.0-rc...release-please-practice-v4.5.0-rc.1) (2026-04-25)
 
 

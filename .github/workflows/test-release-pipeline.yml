@@ -26,7 +26,7 @@ jobs:
       release-type: ${{ inputs.release-type }}
       publish: |
         {
-          "uses": "tspyder7/github-actions-lib/actions/sleep-for-while@main@feat/release-pipeline",
+          "uses": "tspyder7/github-actions-lib/actions/sleep-for-while@main",
           "with": {
             "sleep_time": "10",
             "message": "Slept for 10 seconds. Release is complete"

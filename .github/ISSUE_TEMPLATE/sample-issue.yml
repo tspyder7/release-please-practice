@@ -5,7 +5,7 @@ labels: ["test/test-label"]
 body:
   - type: markdown
     attributes:
-      value: # (template-id: sample-issue.yml)
+      value: <!-- # (template-id: sample-issue.yml) -->
       
   - type: input
     id: name

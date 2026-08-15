@@ -1,0 +1,18 @@
+name: Test Issue
+description: Test Issue for POC
+title: "[Test-Issue]:"
+labels: ["test/test-label"]
+body:
+  - type: markdown
+    attributes:
+      value: "<!-- template-id: sample-issue.yml -->"
+
+  - type: input
+    id: name
+    attributes:
+      label: Repository Name
+      description: Use lowercase alphanumeric characters and hyphens only (e.g., identity-service).
+      placeholder: "example-service"
+    validations:
+      required: true
+      

@@ -15,4 +15,8 @@ body:
       placeholder: "example-service"
     validations:
       required: true
-      
+
+  - type: markdown
+    attributes:
+      value: |
+          template-id: sample-issue    
